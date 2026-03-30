@@ -32,7 +32,7 @@ INSERT INTO game_profile (user_id, level, gold, play_time, rank_tier)
 VALUES
     (1, 15, 3000, 120, 'Silver'),
     (2, 25, 6000, 160, 'Gold'),
-    (2, 35, 9000, 200, 'Platinum');
+    (3, 35, 9000, 200, 'Platinum');
 -- 엔티티별 조회 쿼리
 -- 엔티티별 각각 전체 조회
 SELECT * FROM users;
