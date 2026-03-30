@@ -24,14 +24,17 @@ CREATE TABLE game_profile (
 -- 유저
 INSERT INTO users (username, email)
 VALUES
-    ('player1', 'player1@test.com'),
-    ('player2', 'player2@test.com');
+    ('궁존야띵', 'player1@test.com'),
+    ('환각라이즈', 'player2@test.com'),
+    ('왜이렇게빨리끝나나요', 'player1557@test.com');
 -- 게임 프로필
 INSERT INTO game_profile (user_id, level, gold, play_time, rank_tier)
 VALUES
-    (1, 15, 3000, 120, 'Gold'),
-    (2, 20, 5000, 200, 'Platinum');
--- 엔티티별 전체 조회
+    (1, 15, 3000, 120, 'Silver'),
+    (2, 25, 6000, 160, 'Gold'),
+    (2, 35, 9000, 200, 'Platinum');
+-- 엔티티별 조회 쿼리
+-- 엔티티별 각각 전체 조회
 SELECT * FROM users;
 SELECT * FROM game_profile;
 -- 레벨 20 이상 유저 조회
